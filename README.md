@@ -1,8 +1,8 @@
-# TRST Domain Management Service
+# .trst domains on Ethereum
 
 ## Overview
 
-The TRST Domain Management Service is a decentralized application (DApp) that allows users to register and manage `.trst` domains on the Ethereum blockchain. This service includes functionalities for domain registration, setting DNS records, and transferring domain ownership. Users can interact with the service through a user-friendly web interface.
+The .trst domain management is a decentralized application (DApp) that allows users to register and manage `.trst` domains on the Ethereum blockchain. This service includes functionalities for domain registration, setting DNS records, and transferring domain ownership. Users can interact with the service through a user-friendly web interface.
 
 ## Features
 
@@ -134,7 +134,7 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details. (soon)
 
 ---
 
