@@ -1,0 +1,69 @@
+[
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "_registryAddress",
+                "type": "address"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": false,
+                "internalType": "string",
+                "name": "domain",
+                "type": "string"
+            },
+            {
+                "indexed": false,
+                "internalType": "string",
+                "name": "record",
+                "type": "string"
+            }
+        ],
+        "name": "RecordUpdated",
+        "type": "event"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "domain",
+                "type": "string"
+            }
+        ],
+        "name": "getRecord",
+        "outputs": [
+            {
+                "internalType": "string",
+                "name": "",
+                "type": "string"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "domain",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "record",
+                "type": "string"
+            }
+        ],
+        "name": "setRecord",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }
+]
